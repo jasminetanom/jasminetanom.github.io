@@ -1,0 +1,33 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+
+// Put your custom CSS here if you want to override the defaults.
+// Here are some common customizations for colors
+
+// Customize the background color
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  // background-image: url("/images/memphis-colorful.png");
+}
+
+// Customize the menubar color
+.ui.menu {
+  // background: $background-start;
+}
+
+// Customize the home page icon colors
+.icon-color {
+  // color: silver;
+}
+
+.home-logo {
+  width: 200px;
+  height: auto;
+}
+
+#oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
