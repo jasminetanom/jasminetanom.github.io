@@ -1,10 +1,13 @@
 ---
 layout: essays
 ---
+<div class="fade-in">
+  <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
+    <h1 class="ui violet header">{{ page.title }}</h1>
 
-<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
-  <h1 class="ui violet header">{{ page.title }}</h1>
-  <span class="date">{{ page.date | date_to_string }}</span>
-  <hr>
-  {{ content }}
+    <div class="ui horizontal divider">
+        <span class="date">{{ page.date | date_to_string }}</span>
+    </div>
+    {{ content }}
+  </div>
 </div>

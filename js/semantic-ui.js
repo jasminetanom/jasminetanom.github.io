@@ -18,7 +18,20 @@
  * http://opensource.org/licenses/MIT
  *
  */
+
+
+ $(document).ready(function(){
+     $('.fade-in')
+       .transition({
+         animation  : 'fade up in',
+         duration   : '2s',
+       })
+     ;
+ });
+
+
 ;(function ( $, window, document, undefined ) {
+
 
 $.site = $.fn.site = function(parameters) {
   var

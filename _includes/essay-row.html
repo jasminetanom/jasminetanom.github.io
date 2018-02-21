@@ -1,25 +1,21 @@
 <!-- Used by theme-essays-builtin-2 -->
 
-<div class="row">
-  <div style="text-align: center" class="three wide column">
-    <p style="margin-top: 10px" class="ui red label">{{ include.page.date | date_to_string }}</p>
+<div class="row fade-in">
+  <div style="text-align: center" class="two wide column">
+    <p style="margin-top: 10px" class="ui label">{{ include.page.date | date_to_string }}</p>
+
+      {% for label in include.page.labels %}
+      <p style="margin-top: 10px" class="ui basic circular mini label">{{ label }}</p>
+      {% endfor %}
+
   </div>
 
-  <div class="ten wide column">
-    <h2 class="header">{{ include.page.title }}</h2>
-    <p>{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
-
-    <p>
-    <div style="text-align: center" class="ui mini labels">
-      {% for label in include.page.labels %}
-      <div class="ui basic label">{{ label }}</div>
-      {% endfor %}
-    </div>
-    </p>
-
-    <div style="text-align: center">
-      <a class="ui basic button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
-    </div>
-    <hr style="margin-top: 20px">
+  <div class="eleven wide column">
+    <a href="{{ site.baseurl}}{{ include.page.url }}">
+      <div class="ui segment hover-scale-subtle">
+        <h2 class="ui violet header" style="margin-bottom: 15px;">{{ include.page.title }}</h2>
+        <p>{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
+      </div>
+    </a>
   </div>
 </div>
