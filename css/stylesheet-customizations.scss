@@ -7,27 +7,82 @@
 
 // Customize the background color
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: 'Lato', sans-serif;
-  // background-image: url("/images/memphis-colorful.png");
 }
 
-// Customize the menubar color
-.ui.menu {
-  // background: $background-start;
-}
+// body{
+//   background-color: #000000;
+//   font-family: 'Lato', sans-serif;
+//   padding: 0px;
+//   margin: 0px;
+//  }
 
-// Customize the home page icon colors
-.icon-color {
-  // color: silver;
-}
+// #gradient
+// {
+//   width: 100%;
+//   height: 800px;
+//   padding: 0px;
+//   margin: 0px;
+// }
 
-.home-logo {
-  width: 200px;
-  height: auto;
-}
+// gradient-background {
+//   background: linear-gradient(226deg, #633cc6, #ffffff);
+//   background-size: 400% 400%;
+
+//   -webkit-animation: AnimationName 5s ease infinite;
+//   -moz-animation: AnimationName 5s ease infinite;
+//   -o-animation: AnimationName 5s ease infinite;
+//   animation: AnimationName 5s ease infinite;
+
+//   @-webkit-keyframes AnimationName {
+//       0%{background-position:0% 50%}
+//       50%{background-position:100% 50%}
+//       100%{background-position:0% 50%}
+//   }
+//   @-moz-keyframes AnimationName {
+//       0%{background-position:0% 50%}
+//       50%{background-position:100% 50%}
+//       100%{background-position:0% 50%}
+//   }
+//   @-o-keyframes AnimationName {
+//       0%{background-position:0% 50%}
+//       50%{background-position:100% 50%}
+//       100%{background-position:0% 50%}
+//   }
+//   @keyframes AnimationName {
+//       0%{background-position:0% 50%}
+//       50%{background-position:100% 50%}
+//       100%{background-position:0% 50%}
+//   }
+// }
 
 #oswald {
   font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
 }
 
+#color-hint {
+  height: 4px;
+  background-color: #633cc6;
+}
+
+.hover-scale:hover {
+  -moz-transform: scale(1.075);
+  -ms-transform: scale(1.075);
+  -o-transform: scale(1.075);
+  -webkit-transform: scale(1.075);
+  transform: scale(1.075);
+}
+
+.hover-scale-subtle:hover {
+  -moz-transform: scale(1.015);
+  -ms-transform: scale(1.015);
+  -o-transform: scale(1.015);
+  -webkit-transform: scale(1.015);
+  transform: scale(1.015);
+}
+
+.violet-background {
+  background-color: #C3B1F2;
+}
