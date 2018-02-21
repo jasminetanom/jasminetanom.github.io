@@ -3,7 +3,7 @@ layout: project
 type: project
 image:
 title: Designs for Duke Community
-permalink: projects/baldwin-publicty
+permalink: projects/duke-publicity
 # All dates must be YYYY-MM-DD format!
 date:
 labels:

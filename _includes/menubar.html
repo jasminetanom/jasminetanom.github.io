@@ -7,7 +7,7 @@
 {% assign num_projects = project_pages.size %} -->
 
 
-<div class="nonprintable">
+<div class="nonprintable sticky-menubar menubar-white-background">
   <nav class="ui violet secondary pointing menu">
     <div class="ui center aligned container">
       {% if num_projects > 0 %}
@@ -17,6 +17,20 @@
         <a href="{{ site.baseurl }}/essays" class="hover-scale item {% if include.active == "essays" %} active {% endif %}">Blog</a>
       {% endif %}
         <a href="{{ site.baseurl }}/bio" class="hover-scale item {% if include.active == "bio" %} active {% endif %}">CV</a>
+
+      <div class="right menu">
+          <div class="ui right aligned item">
+            {% for profile in site.data.bio.basics.profiles %}
+               <a href="{{ profile.url }}"> <i class="large {{ profile.network | downcase }} icon icon-color hover-scale"></i> </a>
+            {% endfor %}
+
+            {% if site.data.bio.basics.email %}
+              <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail icon icon-color hover-scale"></i> </a>
+            {% endif %}
+          </div>
+      </div>
+
     </div>
+
   </nav>
 </div>
