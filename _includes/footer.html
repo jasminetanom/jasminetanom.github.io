@@ -1,7 +1,50 @@
 <!-- Always create iframes to embed videos if present. See: http://semantic-ui.com/modules/embed.html -->
 
-<script>
+<!-- <script>
   $('.ui.embed').embed();
-</script>
+</script> -->
+
+<div class="footer">
+
+  <div class="ui horizontal divider">Let's Connect
+  </div>
+
+<div class="ui text container">
+  <div class="ui stackable grid">
+    <div class="row">
+      <div class="eight wide column">
+
+          <p style="color: #7F61CF; text-align: center; margin-top: 10px;">I'm currently looking for opportunities to contribute my skills and knowledge, anywhere in the world.
+          <p style="color: #7F61CF; text-align: center;">And I'm always up for a collaboration, and down for a conversation.</p>
+          <p style="color: #7F61CF; text-align: center;">I'd love to connect with you.</p>
+      </div>
 
 
+      <div class="eight wide column">
+
+
+          <form class="ui form" method="POST" action="https://formspree.io/{{ site.data.bio.basics.email}}">
+            <div class="two fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" name="name" id="name" required placeholder="Your name"/>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input class="form-control" type="text" name="_replyto" id="email" required placeholder="email@address.com"/>
+              </div>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea class="form-control" name="message" id="message" rows="3" required placeholder="Your message"></textarea>
+            </div>
+              <input type="submit" value="Send Message" class="ui violet basic circular button"/>
+              <input type="hidden" name="_next" value="/" />
+          </form>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
