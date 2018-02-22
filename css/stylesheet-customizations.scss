@@ -14,6 +14,14 @@ body {
   flex-direction: column;
 }
 
+.ui.header, .ui.button, .ui.text.container, .ui.menu {
+  font-family: 'Lato', sans-serif;
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+  font-family: 'Lato', sans-serif;
+}
+
 .ui.four.cards>.card {
   background-color: #E9E2FD;
 }
@@ -84,5 +92,13 @@ body {
   width: 100%;
   margin-top: 45px;
   padding-top: 5px;
-  padding-bottom: 20px;
+}
+
+.footer-credit {
+  background-color: #7F61CF;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  text-align: center;
+  color: #E9E2FD;
 }

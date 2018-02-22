@@ -11,4 +11,4 @@ labels:
   - Design
 summary: Write-up coming soon!
 ---
-<p>Write-up coming soon!</p>
+Write-up coming soon!
