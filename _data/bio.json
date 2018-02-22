@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jasmine Tan",
-    "picture": "images/jasmine-tan-purple.png",
+    "picture": "images/jasmine-tan-violet.png",
     "email": "jasminetanom@gmail.com",
     "phone": "",
     "website": "https://jasminetan.me",
-    "summary": "I study Computer Science on a full scholarship at Duke University, and develop full-stack web and iOS apps. I also enjoy graphic design, and am interested in sustainable development and social good. I've lived and learnt all around the world. Right now, I'm in Singapore doing a deep dive into data science.",
+    "summary": "I study Computer Science on a full scholarship at Duke University, and develop full-stack web and iOS apps. I also enjoy graphic design, and am interested in sustainable development and social entrepreneurship. I've lived and learnt all around the world. Right now, I'm in Singapore doing a deep dive into data science.",
     "location": {
       "address": "",
       "postalCode": "",
