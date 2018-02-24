@@ -14,9 +14,16 @@ body {
   flex-direction: column;
 }
 
+.card-home-text {
+  line-height: 1.6em;
+  padding: 0 25px;
+  font-size: 1.1em;
+}
+
 .ui.header, .ui.button, .ui.text.container, .ui.menu {
   font-family: 'Lato', sans-serif;
 }
+
 
 .ui.card>.content>.header, .ui.cards>.card>.content>.header {
   font-family: 'Lato', sans-serif;
@@ -33,6 +40,7 @@ body {
 #oswald {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 1px;
+  padding-top: 5px;
 }
 
 .hover-scale:hover {
@@ -95,14 +103,14 @@ body {
   background-color: #E9E2FD;
   width: 100%;
   margin-top: 45px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .footer-credit {
   background-color: #7F61CF;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   color: #E9E2FD;
 }
