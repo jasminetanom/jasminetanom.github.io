@@ -2,8 +2,8 @@
 layout: project
 type: project
 image:
-title: Pawsperous
-permalink: projects/pawsperous
+title: Test
+permalink: projects/test
 # All dates must be YYYY-MM-DD format!
 date:
 labels:
