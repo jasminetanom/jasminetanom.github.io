@@ -11,9 +11,9 @@ labels:
 summary: First project ("Hello World") for my Interactive Graphics class, made using p5.js.
 ---
 
-![Jasmine Tan](images/metta.png)
-
 [Here's a link to a draft of the piece.](https://jasminetanom.github.io/p5js-first-proj/)
+
+![Jasmine Tan](images/metta.png)
 
 In my yoga class last semester, I learned about the concept of 'Ahimsa' -- the doctrine of non-violence and benevolence towards all living things, including oneself. As someone who struggles with anxiety and a harsh inner critic, this concept resonated deeply with me, and I discovered a tangential practice of loving kindness (mettā) meditation, which consists of consists of silent repetitions of phrases such as "may you be happy" or "may you be at peace", directed at a person/living being, whom depending on tradition, may or may not be internally visualized. In the version I practice, the target of one's well-wishes begins with oneself, but this goodwill extends outwards, first to one's loved ones, then to people about whom one feels neutral, to people with whom one has a difficult relationship, and finally to all living beings. I wanted to share my experience/practice with my family -- especially my mother, who shares a lot of similar struggles as I do. For my first project, I thus envisioned creating an external manifestation of what I visualized internally that would help evoke a sense of calmness and tranquility and encourage loving-kindness towards oneself and others.
 
