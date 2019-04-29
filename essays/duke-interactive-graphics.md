@@ -6,10 +6,11 @@ title: Duke Interactive Graphics
 date: 2019-04-25
 labels:
   - Duke Interactive Graphics
-summary: All blog posts I wrote for my Interactive Graphics class
 ---
 
-Here are links to the blog posts I wrote for my Interactive Graphics class:
+Over the course of the Spring 2019 semester, I wrote blog posts for my Interactive Graphics class. Here are the links to all of them:
+
+<br>
 
 [Three new media art pieces I enjoy](https://github.com/jasminetanom/interactive-graphics-blogposts/blob/master/new-media-art-blog.md)
 
