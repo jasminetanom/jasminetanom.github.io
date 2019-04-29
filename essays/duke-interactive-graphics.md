@@ -1,11 +1,12 @@
 ---
 layout: essay
 type: essay
-title:
+title: Duke Interactive Graphics
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-10
+date: 2019-04-25
 labels:
   - Duke Interactive Graphics
+summary: All blog posts I wrote for my Interactive Graphics class
 ---
 
 Here are links to the blog posts I wrote for my Interactive Graphics class:
