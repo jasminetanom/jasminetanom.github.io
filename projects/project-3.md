@@ -12,5 +12,3 @@ summary: Third project ("Algorithmic Art") for my Interactive Graphics class, ma
 ---
 
 [Here's a link to a draft of the piece.](https://jasminetanom.github.io/classification)
-
-![Jasmine Tan](../images/classification.png)

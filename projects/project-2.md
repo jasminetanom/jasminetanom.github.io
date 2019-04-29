@@ -12,5 +12,3 @@ summary: Second project ("Hello World v2.0") for my Interactive Graphics class, 
 ---
 
 [Here's a link to a draft of the piece.](https://jasminetanom.github.io/p5js-first-proj-2.0/)
-
-![Jasmine Tan](../images/clouds.png)
