@@ -10,8 +10,6 @@ labels:
 
 Over the course of the Spring 2019 semester, I wrote blog posts for my Interactive Graphics class. Here are the links to all of them:
 
-<br>
-
 [Three new media art pieces I enjoy](https://github.com/jasminetanom/interactive-graphics-blogposts/blob/master/new-media-art-blog.md)
 
 [Reflections on first "Hello World" project, and on "What is Art?"](https://github.com/jasminetanom/interactive-graphics-blogposts/blob/master/hello-world-blog.md)
