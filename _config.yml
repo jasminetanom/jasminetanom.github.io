@@ -1,5 +1,5 @@
 title: Jasmine Tan
-url: "https://jasminetan.me"
+url: "https://jasminetanom.github.io"
 baseurl: ""
 
 bio-page-label: Resume
@@ -14,4 +14,3 @@ rouge-theme: igorpro
 
 markdown: kramdown
 include: [_data]
-
