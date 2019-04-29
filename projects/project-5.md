@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: "images/oceans-extended.png"
-title: Oceans
+title: Oceans (Extended)
 permalink: projects/oceans-extended
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-04
