@@ -10,14 +10,13 @@
 <div class="nonprintable menubar-sticky menubar-white-background">
   <nav class="ui violet secondary pointing menu">
     <div class="ui center aligned container">
+      <a href="{{ site.baseurl }}/bio" class="hover-scale item {% if include.active == "bio" %} active {% endif %}">About Me</a>
       {% if num_projects > 0 %}
         <a href="{{ site.baseurl }}/projects" class="hover-scale item {% if include.active == "projects" %} active {% endif %}">Projects</a>
       {% endif %}
       {% if num_essays > 0 %}
         <a href="{{ site.baseurl }}/essays" class="hover-scale item {% if include.active == "essays" %} active {% endif %}">Blog</a>
       {% endif %}
-        <a href="{{ site.baseurl }}/bio" class="hover-scale item {% if include.active == "bio" %} active {% endif %}">About Me</a>
-
       <div class="right menu">
           <div class="ui right aligned item">
             {% for profile in site.data.bio.basics.profiles %}
