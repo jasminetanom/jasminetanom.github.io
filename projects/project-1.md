@@ -1,47 +1,20 @@
 ---
 layout: project
 type: project
-image:
+image: "images/metta.png"
 title: Test
-permalink: projects/test
+permalink: projects/metta
 # All dates must be YYYY-MM-DD format!
-date:
+date: 2019-01-24
 labels:
-  - Web
-  - iOS
-  - Data
-  - Design
-summary: Write-up coming soon!
+  - Duke Interactive Graphics
+summary: First project ("Hello World") for my Interactive Graphics class, made using p5.js.
 ---
 
-<p>Write-up coming soon!</p>
+In my yoga class last semester, I learned about the concept of 'Ahimsa' -- the doctrine of non-violence and benevolence towards all living things, including oneself. As someone who struggles with anxiety and a harsh inner critic, this concept resonated deeply with me, and I discovered a tangential practice of loving kindness (mettā) meditation, which consists of consists of silent repetitions of phrases such as "may you be happy" or "may you be at peace", directed at a person/living being, whom depending on tradition, may or may not be internally visualized. In the version I practice, the target of one's well-wishes begins with oneself, but this goodwill extends outwards, first to one's loved ones, then to people about whom one feels neutral, to people with whom one has a difficult relationship, and finally to all living beings. I wanted to share my experience/practice with my family -- especially my mother, who shares a lot of similar struggles as I do. For my first project, I thus envisioned creating an external manifestation of what I visualized internally that would help evoke a sense of calmness and tranquility and encourage loving-kindness towards oneself and others.
 
-<!-- <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+My audience is anyone who needs or desires inner peace, especially people who have forgotten to be compassionate towards themselves. In order to inspire a sense of hopeful peace and tranquility, I chose a floral theme that represents life, new beginnings, love and beauty, and a soft and gentle yet vibrant color palette -- reminiscent of Spring -- to complement this theme. Along the same vein, I wanted to keep any flashy animations to a minimum, with a few simple, but effective interactive elements. One such element was the flowers appearing with the mouse movements, intended to be simulate the watering and blooming of a garden, and thus spark joy.
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Other interactive elements were employed to fulfil my intention of creating a representation of my loving-kindness meditative practice. The concentric circles (which change the target of ones' goodwill when clicked) represent the concept of radiating benevolence outwards, and the clickable squares allow one to customize/switch up the phrase one repeats. I designed the mantra text to flash slowly and gently in time with one's repetitions of the phrases and one's breath. I hope to extend this piece of mine further by making it a more multi-sensory representation of my practice, perhaps by adding calming sounds of nature that usually accompany me when I meditate.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html). -->
-
-
-
+[Here's a link to a draft of the piece on my site.](https://jasminetanom.github.io/p5js-first-proj/)
